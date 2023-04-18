@@ -2,7 +2,7 @@
 from telebot import TeleBot
 # импортируем основные настройки проекта
 from settings import config
-# импортируем главный класс обработчик бота
+# импортируем главный класс-обработчик бота
 from handlers.handler_main import HandlerMain
 
 

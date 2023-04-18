@@ -21,22 +21,22 @@ COUNT = 0
 KEYBOARD = {
     'CHOOSE_GOODS': emojize(':open_file_folder: Выбрать товар'),
     'INFO': emojize(':speech_balloon: О магазине'),
-    'SETTINGS': emojize('U+2699'),
+    'SETTINGS': emojize('⚙️ Настройки'),
     'SEMIPRODUCT': emojize(':pizza: Полуфабрикаты'),
     'GROCERY': emojize(':bread: Бакалея'),
     'ICE_CREAM': emojize(':shaved_ice: Мороженое'),
-    '<<': emojize(':fast reverse button:'),
-    '>>': emojize(':fast-forward button:'),
-    'BACK_STEP': emojize(':arrow_left:'),
-    'NEXT_STEP': emojize(':arrow_right:'),
-    'ORDER': emojize(':check mark button: Заказ:'),
-    'X': emojize(':cross mark:'),
-    'DOUWN': emojize(':downwards button:'),
+    '<<': emojize('⏪,'),
+    '>>': emojize('⏩'),
+    'BACK_STEP': emojize('◀️'),
+    'NEXT_STEP': emojize('▶️'),
+    'ORDER': emojize('✅ ЗАКАЗ'),
+    'X': emojize('❌'),
+    'DOUWN': emojize('🔽'),
     'AMOUNT_PRODUCT': COUNT,
     'AMOUNT_ORDERS': COUNT,
-    'UP': emojize(':upwards button:'),
-    'APPLAY': emojize(':check mark button: Оформить заказ'),
-    'COPY': emojize(':copyright:')
+    'UP': emojize('🔼'),
+    'APPLAY': '✅ Оформить заказ',
+    'COPY': '©️'
 }
 
 # id категорий продуктов
