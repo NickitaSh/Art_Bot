@@ -43,7 +43,7 @@ class Keyboards:
         """
         self.markup = ReplyKeyboardMarkup(True, True)
         itm_btn_1 = self.set_btn('<<')
-        # расположение кнопок в меню
+        # рассположение кнопок в меню
         self.markup.row(itm_btn_1)
         return self.markup
 
@@ -53,6 +53,6 @@ class Keyboards:
         """
         self.markup = ReplyKeyboardMarkup(True, True)
         itm_btn_1 = self.set_btn('<<')
-        # расположение кнопок в меню
+        # рассположение кнопок в меню
         self.markup.row(itm_btn_1)
         return self.markup

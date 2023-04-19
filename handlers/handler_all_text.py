@@ -1,3 +1,4 @@
+
 # импортируем ответ пользователю
 from settings.message import MESSAGES
 from settings import config
@@ -17,7 +18,7 @@ class HandlerAllText(Handler):
 
     def pressed_btn_info(self, message):
         """
-        Обрабатывает входящие текстовые сообщения
+        обрабатывает входящие текстовые сообщения
         от нажатия на кнопку 'О магазине'.
         """
         self.bot.send_message(message.chat.id, MESSAGES['trading_store'],
@@ -35,7 +36,7 @@ class HandlerAllText(Handler):
 
     def pressed_btn_back(self, message):
         """
-        Обрабатывает входящие текстовые сообщения от нажатия на кнопку 'Назад'.
+        обрабатывает входящие текстовые сообщения от нажатия на кнопку 'Назад'.
         """
         self.bot.send_message(message.chat.id, "Вы вернулись назад",
                               reply_markup=self.keybords.start_menu())

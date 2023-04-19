@@ -8,12 +8,13 @@ TOKEN = '6195974445:AAEawhozT8lBc5OBO2F0UoyXdZyhuPj7b2U'
 NAME_DB = 'products.sqlite'
 # версия приложения
 VERSION = '0.0.1'
+# автор приложения
 AUTHOR = 'User'
 
 # родительская директория
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # путь до базы данных
-DATABASE = os.path.join('sqlite:///' + BASE_DIR, NAME_DB)
+DATABASE = os.path.join('sqlite:///'+BASE_DIR, NAME_DB)
 
 COUNT = 0
 
@@ -25,7 +26,7 @@ KEYBOARD = {
     'SEMIPRODUCT': emojize(':pizza: Полуфабрикаты'),
     'GROCERY': emojize(':bread: Бакалея'),
     'ICE_CREAM': emojize(':shaved_ice: Мороженое'),
-    '<<': emojize('⏪,'),
+    '<<': emojize('⏪'),
     '>>': emojize('⏩'),
     'BACK_STEP': emojize('◀️'),
     'NEXT_STEP': emojize('▶️'),
@@ -46,8 +47,8 @@ CATEGORY = {
     'ICE_CREAM': 3,
 }
 
-# название команд
+# названия команд
 COMMANDS = {
-    'START': 'start',
-    'HELP': 'help',
+    'START': "start",
+    'HELP': "help",
 }
