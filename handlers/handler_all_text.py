@@ -22,7 +22,7 @@ class HandlerAllText(Handler):
         """
         self.bot.send_message(message.chat.id, MESSAGES['trading_store'],
                               parse_mode="HTML",
-                              reply_markup=self.keyboards.info_menu())
+                              reply_markup=self.keybords.info_menu())
 
     def pressed_btn_settings(self, message):
         """
@@ -31,14 +31,14 @@ class HandlerAllText(Handler):
         """
         self.bot.send_message(message.chat.id, MESSAGES['settings'],
                               parse_mode="HTML",
-                              reply_markup=self.keyboards.settings_menu())
+                              reply_markup=self.keybords.settings_menu())
 
     def pressed_btn_back(self, message):
         """
         Обрабатывает входящие текстовые сообщения от нажатия на кнопку 'Назад'.
         """
         self.bot.send_message(message.chat.id, "Вы вернулись назад",
-                              reply_markup=self.keyboards.start_menu())
+                              reply_markup=self.keybords.start_menu())
 
     def handle(self):
         # обработчик(декоратор) сообщений,
