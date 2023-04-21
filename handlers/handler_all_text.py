@@ -36,7 +36,7 @@ class HandlerAllText(Handler):
 
     def pressed_btn_back(self, message):
         """
-        обрабатывает входящие текстовые сообщения от нажатия на кнопку 'Назад'.
+        Обрабатывает входящие текстовые сообщения от нажатия на кнопку 'Назад'.
         """
         self.bot.send_message(message.chat.id, "Вы вернулись назад",
                               reply_markup=self.keybords.start_menu())

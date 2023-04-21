@@ -11,7 +11,7 @@ class HandlerCommands(Handler):
 
     def pressed_btn_start(self, message):
         """
-        обрабатывает входящие /start команды
+        Обрабатывает входящие /start команды
         """
         self.bot.send_message(message.chat.id,
                               f'{message.from_user.first_name},'
